@@ -1,0 +1,9 @@
+[user]
+	name = Luiz Fernando C. Modolo
+	email = 87335906+LuizModolo@users.noreply.github.com
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
+[core]
+	editor = code --wait
