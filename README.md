@@ -18,7 +18,9 @@ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 
 ### Instalando o Home brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/luizmodolo/.profile && eval "$(/opt/homebrew/bin/brew shellenv)"
+/Configs for Macs M1 Chip:
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 brew bundle --file ~/.dotfiles/Brewfile
 
 ### Finalização
